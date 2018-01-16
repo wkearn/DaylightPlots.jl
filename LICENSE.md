@@ -1,4 +1,5 @@
-The DaylightPlots.jl package is licensed under the MIT "Expat" License:
+The DaylightPlots.jl package, with the exception of the code in src/sunrise.jl is 
+licensed under the MIT "Expat" License:
 
 > Copyright (c) 2018: Will Kearney.
 >
@@ -20,3 +21,8 @@ The DaylightPlots.jl package is licensed under the MIT "Expat" License:
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > SOFTWARE.
 >
+
+src/sunrise.jl is derived from the NOAA ESRL Global Radiation Group solar 
+calculator (https://www.esrl.noaa.gov/gmd/grad/solcalc/) and as U.S. Government 
+material is in the public domain and not subject to copyright.
+
