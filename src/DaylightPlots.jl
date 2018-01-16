@@ -1,7 +1,7 @@
 module DaylightPlots
 
-using Base.Dates, TimeZones, RecipesBase
-using Reexport
+using RecipesBase
+using Reexport, RecipesBase
 @reexport using Base.Dates, TimeZones
 
 include("sunrise.jl")
