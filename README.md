@@ -60,6 +60,9 @@ t = DateTime(2018,01,01):Minute(1):DateTime(2018,01,02)
 
 x = randn(length(t))
 
+# We need to add a recipe for Foo
+@recipe p(f::Foo) = (f.t,f.x)
+
 f = Foo(t,x)
 
 daylight(f,loc=Point(42.35,-71.05),tz=tz"America/New_York")
