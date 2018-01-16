@@ -30,7 +30,7 @@ The default implementation of `daylight` takes two arguments, a collection of `D
 
 # Need help?
 
-Feel free to [open an issue]() if something doesn't work the way you expected. I also try to hang around in the [Plots.jl gitter channel](https://gitter.im/tbreloff/Plots.jl) if you have a quick question. Just be sure to tag me, (@wkearn) so I get notified.
+Feel free to [open an issue](https://github.com/wkearn/DaylightPlots.jl/issues/new) if something doesn't work the way you expected. I also try to hang around in the [Plots.jl gitter channel](https://gitter.im/tbreloff/Plots.jl) if you have a quick question. Just be sure to tag me, (@wkearn) so I get notified.
 
 # User-defined types
 
@@ -69,7 +69,7 @@ daylight(f,loc=Point(42.35,-71.05),tz=tz"America/New_York")
 
 If you have a cool example of a daylight plot made with this package, feel free to add it to the `examples/` directory. Please include a script that produces the plot along with a PNG of the plot itself. It's okay if you don't want to include the data behind the plot, but if you can, and it's not too big, please do!
 
-I've opened some issues with the [enhancement tag]() for ways in which I would like to improve DaylightPlots. Feel free to tackle any of those in a fork and open up a pull request. If you have any other ideas, please open an issue first, so we can discuss it before you spend a lot of time working on something that isn't really appropriate for DaylightPlots. I should say that I am more or less happy with the scope of this package. I really just want a way to produce these sorts of plots that is extensible to different sorts of time series data. I'm not really thinking about adding more features like different plot types. I could be convinced otherwise.
+I've opened some issues with the [enhancement tag](https://github.com/wkearn/DaylightPlots.jl/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement) for ways in which I would like to improve DaylightPlots. Feel free to tackle any of those in a fork and open up a pull request. If you have any other ideas, please open an issue first, so we can discuss it before you spend a lot of time working on something that isn't really appropriate for DaylightPlots. I should say that I am more or less happy with the scope of this package. I really just want a way to produce these sorts of plots that is extensible to different sorts of time series data. I'm not really thinking about adding more features like different plot types. I could be convinced otherwise.
 
 # Details on the daylight hours calculation
 
