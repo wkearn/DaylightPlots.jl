@@ -1,5 +1,6 @@
-using DaylightPlots
+using DaylightPlots, Plots
 using Base.Test
 
-# write your own tests here
-@test 1 == 2
+include("sunrise.jl")
+include("plots.jl")
+include("tlims.jl")
