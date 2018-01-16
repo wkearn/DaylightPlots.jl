@@ -3,6 +3,8 @@
 # in my TidalFluxQuantities package
 using TidalFluxQuantities, ADCPDataProcessing, PIEMetData, TidalFluxExampleData, DaylightPlots, TidalFluxPlots, Plots
 
+pyplot()
+
 # This stuff is all just loading and processing some
 # example tidal data
 
