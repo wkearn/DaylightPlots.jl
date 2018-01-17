@@ -26,8 +26,8 @@ end
     
     rs,zs = _process_daylight(ts,loc,tz)
 
-    xlims := Dates.value.(ts)
-    ylims := (a,b)
+    xlims --> Dates.value.(ts)
+    ylims --> (a,b)
     
     @series begin
         seriestype:= [:steppost :steppre]
